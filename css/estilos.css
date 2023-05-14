@@ -1,0 +1,26 @@
+body {background-color: #F9E79F}
+.tituloprincipal {text-align: center;
+font-family: sans-serif;
+font-size: xx-large;
+color: #E74C3C;
+text-decoration: underline;}
+.imagen {display: block;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+height: auto;}
+.subtitulo {text-align: justify;
+font-size: medium;
+font-family: sans-serif;}
+.listas {text-align: center;
+font-size: x-large;
+font-family: sans-serif;
+color: #E74C3C;
+text-decoration: underline;}
+.items {font-family: sans-serif;}
+.especial {display: block;
+margin-left: auto;
+margin-right: auto;}
+.enlaces {text-align: center;
+font-family: sans-serif;
+font-size: large;}
