@@ -1,4 +1,10 @@
 body {background-color: #F9E79F}
+header {background-color: #E67E22}
+nav {background-color: #EB984E}
+section {background-color: #D35400}
+main {background-color: #E67E22}
+aside {background-color:#EB984E}
+footer {background-color:#D35400}
 .tituloprincipal {text-align: center;
 font-family: sans-serif;
 font-size: xx-large;
@@ -24,3 +30,18 @@ margin-right: auto;}
 .enlaces {text-align: center;
 font-family: sans-serif;
 font-size: large;}
+.redes {font-family: sans-serif;
+font-size: large;}
+.icon {width: 4%}
+.icon2 {width: 3%}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+.whatsapp-icon img {
+    width: 70px;
+    height: 70px; 
+  }
