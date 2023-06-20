@@ -14,7 +14,7 @@ font-size: medium;
 font-family: sans-serif;}
 .listas {text-align: center;
 font-size: x-large;
-font-family: sans-serif;
+font-family: "cocogoose";
 color: #E74C3C;
 text-decoration: underline;}
 .items {font-family: sans-serif;}
@@ -40,16 +40,17 @@ font-size: large;}
   justify-content: space-between;
   background-color: #E67E22;
   padding: 10px;
+  width: 99%
 }
 
 .logococina {
-  width: 100px;
+  width: 10vw;
 }
 
 .tituloprincipal {
   flex-grow: 1;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "cocogoose";
   font-size: xx-large;
   color: #E74C3C;
   text-decoration: underline;
@@ -88,3 +89,21 @@ padding: 10px;
 }
 .info {font-family: sans-serif;
 color: #E74C3C;}
+nav {  width: 99%;}
+main {  width: 99%;}
+nav {  width: 99%;}
+aside {  width: 99%;}
+footer {  width: 99%;}
+@font-face { font-family: "cocogoose";
+src: url("../fuentes/cocogoose.ttf")
+format("truetype");
+  }
+p {font-family: "cocogoose";
+width: 40%;
+font-size: 1em;
+}
+.parrafo {display: flex;
+align-items: center;
+justify-content: center;}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap");
+.info {font-family: 'Roboto Slab', serif;}
