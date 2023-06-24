@@ -1,7 +1,7 @@
 body {background-color: #F9E79F}
 header {background-color: #E67E22}
 nav {background-color: #EB984E}
-main {background-color: #E67E22}
+section {background-color: #E67E22}
 aside {background-color:#EB984E}
 footer {background-color:#D35400}
 .imagen {display: block;
@@ -40,70 +40,70 @@ font-size: large;}
   justify-content: space-between;
   background-color: #E67E22;
   padding: 10px;
-  width: 99%
-}
-
+  width: 99%}
 .logococina {
-  width: 10vw;
-}
-
+  width: 10vw;}
 .tituloprincipal {
   flex-grow: 1;
   text-align: center;
   font-family: "cocogoose";
   font-size: xx-large;
   color: #E74C3C;
-  text-decoration: underline;
-}
-
+  text-decoration: underline;}
 .social-logos {
-  display: flex;
-}
-
+  display: flex;}
 .social-logos a {
-  margin: 0 10px;
-}
-
+  margin: 0 10px;}
 .social-logos img {
   width: 40px;
-  height: 40px;
-}
+  height: 40px;}
 footer {
 display: flex;
+flex: 1;
 align-items: center;
 justify-content: space-around;
 background-color: #E67E22;
-padding: 10px;
-}
+padding: 10px;}
 .social-logos2 {
-  display: flex;
-}
-
+  display: flex;}
 .social-logos2 a {
-  margin: 0 5px;
-}
-
+  margin: 0 5px;}
 .social-logos2 img {
   width: 40px;
-  height: 40px;
-}
-.info {font-family: sans-serif;
-color: #E74C3C;}
+  height: 40px;}
+.sanmi {width: 50%}
+.otrasrecetas {text-align: center;}
+.fotoempanadas {width: 40%}
 nav {  width: 99%;}
-main {  width: 99%;}
+section {  width: 52%;}
 nav {  width: 99%;}
-aside {  width: 99%;}
+aside {  width: 45%;}
 footer {  width: 99%;}
 @font-face { font-family: "cocogoose";
 src: url("../fuentes/cocogoose.ttf")
-format("truetype");
-  }
+format("truetype");}
 p {font-family: "cocogoose";
 width: 40%;
-font-size: 1em;
-}
+font-size: 1em;}
 .parrafo {display: flex;
 align-items: center;
-justify-content: center;}
+justify-content: center;
+flex-direction: row;}
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap");
 .info {font-family: 'Roboto Slab', serif;}
+section {display: flex;
+flex-direction: column;}
+aside {display: flex;
+flex-direction: column;}
+.mitadpagina {display: flex;
+flex: 1;
+justify-content: space-between;}
+@media (max-width: 700px) {
+  .tituloprincipal {font-size: large;}
+}
+@media (min-width: 700px) {
+  .fotoempanadas {display: none;}
+}
+@media (max-width: 700px) {
+  .logococina {width: 20vw;}
+}
