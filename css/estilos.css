@@ -107,3 +107,7 @@ justify-content: space-between;}
 @media (max-width: 700px) {
   .logococina {width: 20vw;}
 }
+body.dark-mode {
+  background-color: #000; /* Fondo oscuro */
+  color: #fff; /* Texto claro */
+}
